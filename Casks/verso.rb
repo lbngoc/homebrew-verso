@@ -17,4 +17,9 @@ cask "verso" do
 
   auto_updates true
   depends_on macos: ">= :ventura"
+
+  postflight do
+    target = "#{appdir}/Verso.app"
+    system_command "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", target] if File.exist?(target)
+  end
 end
