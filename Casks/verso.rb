@@ -1,13 +1,13 @@
 cask "verso" do
-  version "0.1.10"
+  version "0.1.11"
 
   on_arm do
-    sha256 "2fddee39700cd0f26a303ffec0a99b81a1b3aae1ca762287d7e1845c91176c82"
-    url "https://github.com/lbngoc/verso-translate/releases/download/v0.1.10/Verso_0.1.10_aarch64.dmg"
+    sha256 "75279e211abd7fcecbce0f5e6bb8f0eaff2869dea00c8274a5b100101c8ca009"
+    url "https://github.com/lbngoc/verso-translate/releases/download/v0.1.11/Verso_0.1.11_aarch64.dmg"
   end
   on_intel do
-    sha256 "abb12405029e96d4b2fef11955512f78f4e993aad0597130cc30488878954d38"
-    url "https://github.com/lbngoc/verso-translate/releases/download/v0.1.10/Verso_0.1.10_x64.dmg"
+    sha256 "635e01b8f48046a07ce01896f99ce5f54e215f2fe9381a12642a2de9e743119f"
+    url "https://github.com/lbngoc/verso-translate/releases/download/v0.1.11/Verso_0.1.11_x64.dmg"
   end
 
   name "Verso"
